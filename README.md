@@ -4,14 +4,14 @@ Firmata + TCP 2 Serial + LittleBit for ESP8266/NodeMCU
   - Run Firmata (heavily modified fork of StandardFirmataEthernet) on NodeMCU accessible through Wifi
   - Access Firmata on NodeMCU through local serial port (Windows) that in fact connects to NodeMCU through Wifi
     (this is particularly useful if you want to connect other software to your NodeMCU that can only use COM port)
-  - Make your own 'LittleBit' out of NodeMCU and control it from Snap4Arduino wirelessely. 
+  - Make your own 'LittleBit' out of NodeMCU and control it from http://s4a.cat/snap/ (Snap4Arduino) wirelessely. 
     More to come later for schematics and control. If you don't know what littlebits are, check out https://littlebits.cc
 
 
 Setup steps
 ========================================================================================================================
-## (uses pre-compiled files from https://github.com/kotl/littlebits-esp8266/ )
-## How to compile everything from source is explained below in this guide.
+(uses pre-compiled files from https://github.com/kotl/littlebits-esp8266/ )
+How to compile everything from source is explained below in this guide.
 
 Step 1. Install ESP8266 driver from step1-esp8266-driver\CH341SER.EXE
   -- Please do not connect your ESP8266 until you get message for installing drivers succesfully.
@@ -52,7 +52,7 @@ And now everything should work all the time through port COM101.
 
 How to use
 ========================================================================================================================
-## Unfortunately due to very different pin out of ESP8266, only these commands will work for ESP8266 Firmata:
+Unfortunately due to very unusual pinout of ESP8266, only these commands will work for ESP8266 Firmata:
 
 1. Analog reading of pins 0,1,2,3 which correspond to the following pins on ESP8266:
  PIN0 A0 
@@ -75,7 +75,7 @@ Only these 2 commands for pin control are supported (no digital pin commands or 
 
 How to compile
 ========================================================================================================================
-## various pieces of software that are used in this guide:
+How to compile various pieces of software that are used in this guide:
 
 1. comm2ip: https://github.com/kotl/comm2ip
 2. Configuration utility: https://github.com/kotl/littlebits-esp8266/configure-util
