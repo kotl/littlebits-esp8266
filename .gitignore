@@ -1,0 +1,3 @@
+*.log
+step2-esp8266-firmware-flash/Win64/Config/Config.xml
+step2-esp8266-firmware-flash/Win64/Config/ESP8266MAC.txt
