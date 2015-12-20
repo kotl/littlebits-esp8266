@@ -1,6 +1,6 @@
 Firmata + TCP 2 Serial + LittleBit for ESP8266/NodeMCU
 ========================================================================================================================
-## This package solves these problems for ESP8266/NodeMCU chips:
+## This package solves these problems for ESP8266/NodeMCU:
   - Run Firmata (heavily modified fork of StandardFirmataEthernet) on NodeMCU accessible through Wifi
   - Access Firmata on NodeMCU through local serial port (Windows) that in fact connects to NodeMCU through Wifi
     (this is particularly useful if you want to connect other software to your NodeMCU that can only use COM port)
