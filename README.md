@@ -46,7 +46,7 @@ Setup steps
 
 ## Step 5. Configure settings
 - Configure your ESP8266 board using step5-configure/ESP8266Configurator.exe
-  - setup SSID, Password, IP of this host where comm2ip + com2com are setup
+  - setup SSID, Password, IP of this host where comm2ip + com0com are setup
     - remote port should be 3030 unless
 you changed step4-comm2ip\Comm2IPService.exe.config
 
@@ -82,7 +82,7 @@ How to compile
 How to compile various pieces of software that are used in this guide:
 
 1. comm2ip: https://github.com/kotl/comm2ip
-2. Configuration utility: https://github.com/kotl/littlebits-esp8266/configure-util
+2. Configuration utility: https://github.com/kotl/littlebits-esp8266/tree/master/configure-util
 3. Flash utility: https://github.com/nodemcu/nodemcu-flasher
 4. com2com driver: http://com0com.sourceforge.net/
 5. Compile ESP8266 Firmware:
@@ -92,7 +92,8 @@ How to compile various pieces of software that are used in this guide:
    - Install ESP8266 driver (Step 1 of this guide) (CH341SER.EXE).
      Please do not connect your ESP8266 until you get message for installing driving succesfully.
    - Connect your ESP8266. Choose proper board and port in Arduino environment.
-   - Open https://github.com/kotl/esp8266-firmata/examples/ESP8266FirmataWifi/ESP8266FirmataWifi.ino in Arduino
+   - Open https://github.com/kotl/esp8266-firmata/tree/master/examples/ESP8266FirmataWifi/ESP8266FirmataWifi.ino
+     in Arduino IDE.
    - Select your ESP8266 board. 
    - Compile and upload into your unit. You are done :)
 
