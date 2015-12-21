@@ -88,6 +88,7 @@ How to compile various pieces of software that are used in this guide:
 5. Compile ESP8266 Firmware:
    - Install latest Arduino environment.
    - Follow instructions installing esp8266/Arduino using my own fork: https://github.com/kotl/esp8266
+     ( You will have to run python get.py in tools directory, of course )
    - Replace libraries\Firmata with my own fork: https://github.com/kotl/esp8266-firmata
    - Install ESP8266 driver (Step 1 of this guide) (CH341SER.EXE).
      Please do not connect your ESP8266 until you get message for installing driving succesfully.
